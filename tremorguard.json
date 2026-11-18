@@ -1,0 +1,22 @@
+{
+  "description": {
+    "translate": "enchantment.ascendant.tremorguard",
+    "color": "red"
+  },
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "primary_items": "#minecraft:enchantable/foot_armor",
+  "weight": 1,
+  "max_level": 2,
+  "min_cost": {
+    "base": 36,
+    "per_level_above_first": 12
+  },
+  "max_cost": {
+    "base": 66,
+    "per_level_above_first": 12
+  },
+  "anvil_cost": 10,
+  "slots": [
+    "feet"
+  ]
+}

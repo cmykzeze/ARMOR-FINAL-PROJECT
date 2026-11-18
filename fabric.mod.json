@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "ascendant",
+  "version": "${version}",
+  "name": "Ascendant Armor",
+  "description": "34 tiered armor enchantments for PvP and PvE - 11 core powers, 11 counters and a 12-enchant expansion. Warden's Roar, Wither's Wrath, Dragon's Dash, Skybound and more. Hotkeys: Z / X / C / V.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.ascendant.AscendantMod"],
+    "client": ["com.ascendant.client.AscendantClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
